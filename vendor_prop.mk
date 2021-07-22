@@ -5,6 +5,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # HDR
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qcom.hdr.config=/system/vendor/etc/hdr_tm_config.xml
+    
+# Perf
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.post_boot.parsed=1
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
